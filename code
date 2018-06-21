@@ -1,0 +1,14 @@
+// Converting Kelvin to Fahrenheit
+const kelvin = 293;
+
+// Storing conversion of Kelvin to Celsius
+const celsius = kelvin - 273;
+
+// Storing conversion of Celsius to Fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// Rounding Fahrenheit value
+fahrenheit = Math.floor(fahrenheit);
+
+// String interpolation
+console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit.');
